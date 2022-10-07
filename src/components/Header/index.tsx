@@ -34,7 +34,7 @@ export default function Header() {
           </h1>
         </div>
         <div>
-          <ul className="text-[1.5rem] font-comfortaa font-medium flex space-x-[3rem] text-lightpink">
+          <ul className="text-[24px] font-comfortaa font-medium flex space-x-[3rem] text-lightpink">
             {itemsMenu.map(({ itemName, itemValue }) => (
               <HeaderListItem
                 handleSelect={handleSelectMenu}
