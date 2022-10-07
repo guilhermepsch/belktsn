@@ -16,7 +16,7 @@ export default function HeaderListItem({
       <button onClick={() => handleSelect(menuItem)}>
         <div
           className={
-            "h-[2.5rem]" && (selected ? "font-bold text-darkpink" : undefined)
+            "h-[2.5rem]" && (selected ? "font-bold text-darkpink transition-all duration-300" : undefined)
           }
         >
           <div className="max-h-[27px]">{itemName}</div>
