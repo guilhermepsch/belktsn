@@ -8,7 +8,7 @@ import { itemsMenu } from "./constants";
 import HeaderListItem from "./HeaderListItem";
 
 export default function Header() {
-  const [selectedMenu, setSelectedMenu] = useState<number>(0);
+  const [selectedMenu, setSelectedMenu] = useState<number>(1);
 
   const handleSelectMenu = (index: number) => {
     setSelectedMenu(index);
